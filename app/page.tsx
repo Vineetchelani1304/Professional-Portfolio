@@ -74,7 +74,7 @@ function SocialLinks() {
       <a className="social-link" href="mailto:vineetchelani13@gmail.com" aria-label="Email">
         <Mail />
       </a>
-      <a className="social-link" href="tel:+919321419450" aria-label="Phone">
+      <a className="social-link" href="Phone:+91-9172071820" aria-label="Phone">
         <Phone />
       </a>
     </div>
