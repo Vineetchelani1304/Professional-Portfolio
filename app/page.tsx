@@ -192,8 +192,8 @@ export default function Page() {
           <section id="achievements" className="portfolio-section achievements-section">
             <motion.div {...fadeUp(!!reduce)}><SectionLabel number="04" title="Achievements" /></motion.div>
             <div className="achievement-list">
-              <motion.div className="achievement-row" {...fadeUp(!!reduce, 0.08)}><Sparkles /><div><strong>2nd Place</strong><p>Medino&apos;sXAdvitya&apos;25 Hackathon, IIT Ropar <span>· 300+ teams · Feb 2025</span></p></div></motion.div>
-              <motion.div className="achievement-row" {...fadeUp(!!reduce, 0.14)}><Sparkles /><div><strong>Most Innovative Idea</strong><p>Hack to Crack 2.0, Mumbai <span>· 80+ teams · Mar 2025</span></p></div></motion.div>
+              <motion.div className="achievement-row" {...fadeUp(!!reduce, 0.08)}><Sparkles /><div><strong>2nd Place</strong><p>Medino&apos;sXAdvitya&apos;26 Hackathon, IIT Ropar <span>· 300+ teams · Feb 2026</span></p></div></motion.div>
+              <motion.div className="achievement-row" {...fadeUp(!!reduce, 0.14)}><Sparkles /><div><strong>Most Innovative Idea</strong><p>Hack to Crack 3.0, Mumbai <span>· 80+ teams · Mar 2026</span></p></div></motion.div>
             </div>
           </section>
 
