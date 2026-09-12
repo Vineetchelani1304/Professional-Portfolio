@@ -30,11 +30,19 @@ const skillGroups = [
 
 const projects = [
   {
+    title: 'Freelance Project — E-commerce Platform',
+    eyebrow: 'Full-stack e-commerce for a candle-making startup',
+    description: 'A complete online store built for a real client — product catalog, cart, and checkout, shipped and live in production.',
+    stack: ['React', 'Node.js', 'MongoDB', 'Express.js', 'TailwindCSS'],
+    github: 'https://github.com/Vineetchelani1304/melted-flames-frontend',
+    demo: 'https://melted-flames.vercel.app/',
+  },
+  {
     title: 'PrepAI',
     eyebrow: 'GenAI Career Preparation Assistant',
     description: 'A personalized career chatbot with memory, roadmap generation, resume analysis, and cover letter drafting.',
     stack: ['LangGraph', 'Gemini', 'RAG', 'mem0', 'ChromaDB', 'Neo4j'],
-    github: 'https://github.com/',
+    github: 'https://github.com/Vineetchelani1304/PrepAI',
     demo: 'https://github.com/',
   },
   {
@@ -42,17 +50,10 @@ const projects = [
     eyebrow: 'Scalable task & project platform',
     description: 'A full-stack workspace with RBAC, monorepo architecture, and CI/CD via GitHub Actions.',
     stack: ['Next.js', 'Node.js', 'PostgreSQL', 'Turborepo'],
-    github: 'https://github.com/',
+    github: 'https://github.com/Vineetchelani1304/Project_management',
     demo: 'https://github.com/',
   },
-  {
-    title: 'Chat with PDF',
-    eyebrow: 'GenAI-powered document intelligence',
-    description: 'A PDF-aware chatbot using semantic search to make long documents instantly conversational.',
-    stack: ['LangChain', 'Gemini', 'RAG', 'Qdrant', 'Streamlit'],
-    github: 'https://github.com/',
-    demo: 'https://github.com/',
-  },
+  
 ]
 
 const fadeUp = (reduce: boolean, delay = 0) => ({
